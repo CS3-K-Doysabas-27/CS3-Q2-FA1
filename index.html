@@ -1,0 +1,91 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>CS3 2nd quarter FA1</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Kennisha Samantha L. Doysabas">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="revised" content="11-17-23">
+	</head>
+	<body>
+		<a class = "one" href = #div1>First Link</a>
+		<a class = "two" href = #div2>Second Link</a>
+		<div id = "div1">
+			<h4>Div 1 here</h4>
+		</div>
+		<br>
+		<div id = "div2">
+			<h4>Div2 here</h4>
+		</div>
+	</body>
+	<style>
+		a.one:link {
+			color:#EE9626;
+			text-decoration:none;
+			}
+		a.one:visited {
+			color:#8F5FF5;
+			text-decoration:none;
+			}
+		a.one:hover {
+			color:#EE9626;
+			background-color:#FFF67D;
+			text-decoration:none;
+			}
+		a.one:active {
+			color:#EE9626;
+			background-color:#DBD256;
+			text-decoration:none;
+			}
+		a.two:link {
+			color:#EE9626;
+			text-decoration:none;
+			}
+		a.two:visited {
+			color:#8F5FF5;
+			text-decoration:none;
+			}
+		a.two:hover {
+			color:#EE9626;
+			background-color:#FFF67D;
+			text-decoration:none;
+			}
+		a.two:active {
+			color#EE9626;
+			background-color:#DBD256;
+			text-decoration:none;
+			}
+		#div1 {
+			border:1px solid black;
+			width:100px;
+			height:100px;
+			margin:5px;
+			padding:0px;
+			}
+		#div1:target {
+			background-color:#FFF67D;
+			border: 1px solid black;
+			color:#8F5FF5;
+			margin:5px;
+			width:100px;
+			height:100px;
+			padding:0px;
+		}
+		#div2 {
+			border:1px solid black;
+			width:100px;
+			height:100px;
+			margin:5px;
+			padding:0px;
+			}
+		#div2:target {
+			background-color:#FFF67D;
+			border: 10px dotted green;
+			color:#EE9626;
+			margin:5px;
+			width:100px;
+			height:100px;
+			padding:0px;
+		}
+	</style>
+</html>
